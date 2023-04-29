@@ -1,6 +1,6 @@
 [package]
 name = "cw-tpl-osmosis"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Daniel Farina <dan@osmosis.team>"]
 edition = "2018"
 
@@ -45,6 +45,7 @@ cosmwasm-storage = "1.0.0"
 cw-storage-plus = "0.13.2"
 cw2 = "0.13.2"
 schemars = "0.8.8"
+semver = "1.0.17"
 serde = { version = "1.0.137", default-features = false, features = ["derive"] }
 thiserror = { version = "1.0.31" }
 
